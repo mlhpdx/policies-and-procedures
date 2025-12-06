@@ -99,6 +99,29 @@ It **does not cover customer PII**, as Proxylity does not collect or store it.
 * **Internal Reporting:** Slack / Email to IRL + Engineering on call.
 * **Escalation:** Critical incidents immediately escalated to Executive Team.
 * **Documentation:** All incidents logged in internal ticketing system with timeline, mitigation, and resolution.
+* **Public Status Page:** Service status and security bulletins are published at https://status.proxylity.com.
+
+### **Status Page Update Requirements**
+
+| Event Type | Update Requirement |
+|------------|--------------------|
+| **Service Degradation** | Update within 15 minutes of detection |
+| **Service Outage** | Update within 15 minutes of detection; updates every 30 minutes until resolved |
+| **Security Vulnerability (resolved)** | Security bulletin posted within 48 hours of resolution |
+| **Planned Maintenance** | Posted at least 24 hours in advance |
+| **Incident Resolution** | Final update posted within 2 hours of resolution |
+
+### **Security Bulletin Criteria**
+
+Security bulletins are published for:
+- Vulnerabilities that were exploitable in the Proxylity platform
+- Security incidents that affected service availability or data integrity
+- Vulnerabilities in dependencies where the affected code path was reachable
+
+Security bulletins are NOT published for:
+- CVEs in dependencies where the vulnerable code path is not used or is mitigated by platform architecture
+- Routine dependency updates and patching
+- Internal security improvements with no customer-facing impact
 
 ---
 

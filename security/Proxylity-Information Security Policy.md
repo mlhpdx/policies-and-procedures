@@ -136,6 +136,7 @@ Proxylity maintains a formal Incident Response Plan to detect, respond to, and r
 - Customer notification within 48 hours after vulnerability is resolved (unless customer engagement is required for remediation)
 - Affected parties notified where required by law or contract
 - Customers may report security incidents via documented disclosure process on public website
+- Service status and security bulletins published at https://status.proxylity.com
 
 **Incident Resources:**
 - Relevant logs and incident reports available to affected customers within scope of their use
